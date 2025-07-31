@@ -1,0 +1,56 @@
+/* Custom CSS */
+:root {
+    --bg-color: #E7EDFE;
+    --primary-color: #638BF8;
+    --secondary-color: #8FABFA;
+    --text-color: #333333;
+    --button-color: #1E40AF;
+    --button-hover-color: #1E3A8A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-bgColor {
+    background-color: var(--bg-color);
+}
+
+.bg-primaryColor {
+    background-color: var(--primary-color);
+}
+
+.bg-secondaryColor {
+    background-color: var(--secondary-color);
+}
+
+.text-textColor {
+    color: var(--text-color);
+}
+
+.bg-buttonColor {
+    background-color: var(--button-color);
+}
+
+.bg-buttonHoverColor {
+    background-color: var(--button-hover-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .h-screen {
+        height: 80vh;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+}
